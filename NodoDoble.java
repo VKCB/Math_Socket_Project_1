@@ -12,6 +12,10 @@ package proyecto.pkg1.Math_Socket_Project_1;
 public class NodoDoble {
     public int dato;
     NodoDoble siguiente, anterior;
+        //Constructor para cuando no hay nodos
+    public NodoDoble(int el){
+       this(el,null,null);            
+    }
     //Constructor para cuando haya nodos
     public NodoDoble(int el, NodoDoble s, NodoDoble a){
          dato=el;
